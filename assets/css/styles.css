@@ -8,6 +8,7 @@
     --lightBlue1: hsl(211, 68%, 94%);
     --lightBlue2: hsl(205, 33%, 90%); 
     --grayBlue: hsl(219, 14%, 63%);
+    --DarkGrayishBlue: hsl(219, 12%, 42%);
     --veryDarkBlue: hsl(224, 21%, 14%);
     --borderRadius: 25px; 
     --standardSpacing: 1em; 
@@ -135,6 +136,12 @@ body {
     font-weight: 800;
     margin-right: 0.2em;
     position: relative;
+    transition: .2s ease-in-out;
+}
+
+.name:hover {
+    color: var(--blue);
+    cursor: pointer;
 }
 
 .greyText {
@@ -143,7 +150,13 @@ body {
 
 .postName {
     font-weight: 800;
+    color: var(--DarkGrayishBlue);
+    transition: .2s ease-in-out;
+}
+
+.postName:hover {
     color: var(--blue);
+    cursor: pointer;
 }
 
 .dot {
@@ -156,6 +169,7 @@ body {
     position: absolute;
     left: 16%;
     bottom: 15%;
+    color: var(--grayBlue);
 }
 
 
