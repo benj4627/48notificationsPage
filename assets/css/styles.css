@@ -1,3 +1,19 @@
+/* fonts + variables */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root {
+    --red: hsl(1, 90%, 64%);
+    --blue: hsl(219, 85%, 26%);
+    --VeryLightGrayBlue: hsl(210, 60%, 98%);
+    --lightBlue1: hsl(211, 68%, 94%);
+    --lightBlue2: hsl(205, 33%, 90%); 
+    --grayBlue: hsl(219, 14%, 63%);
+    --veryDarkBlue: hsl(224, 21%, 14%);
+    --borderRadius: 25px; 
+    --standardSpacing: 1em; 
+    --largeSpacing: 2em;
+}
+
 /* reset template */
 * {
     box-sizing: border-box;
@@ -8,6 +24,7 @@
 
 body {
     min-height: 100vh;
+    font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 a {
@@ -45,3 +62,33 @@ input,
 form {
     font: inherit;
 }
+
+
+
+/* ## Colors
+
+### Primary
+
+- Red: hsl(1, 90%, 64%)
+- Blue: hsl(219, 85%, 26%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Very light grayish blue: hsl(210, 60%, 98%)
+- Light grayish blue 1: hsl(211, 68%, 94%)
+- Light grayish blue 2: hsl(205, 33%, 90%)
+- Grayish blue: hsl(219, 14%, 63%)
+- Dark grayish blue: hsl(219, 12%, 42%)
+- Very dark blue: hsl(224, 21%, 14%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+### Font
+
+- Family: [Plus Jakarta Sans](https://fonts.google.com/specimen/Plus+Jakarta+Sans)
+- Weights: 500, 800 */
