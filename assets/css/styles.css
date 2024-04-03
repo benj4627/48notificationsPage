@@ -25,6 +25,7 @@
 body {
     min-height: 100vh;
     font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
 }
 
 a {
@@ -62,6 +63,49 @@ input,
 form {
     font: inherit;
 }
+
+/* main stying and container */
+body {
+    background-color: var(--VeryLightGrayBlue);
+}
+.container {
+    background-color: white;
+    width: 50vw;
+    height: fit-content;
+    position: absolute;
+    top: 50%; right: 50%;
+    transform: translate(50%,-50%);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.116);
+    border-radius: var(--borderRadius);
+    padding: var(--largeSpacing);
+}
+
+/* content styling */
+.headingsContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline; 
+}
+.headingsText {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.headingsText h1 {
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.headingsText p {
+    background-color: var(--blue);
+    color: white;
+    padding: 2px 14px;
+    margin-left: .5em;
+    font-weight: 800;
+    border-radius: 8px;
+}
+
+/* notification styling */
 
 
 
