@@ -70,7 +70,7 @@ body {
 }
 .container {
     background-color: white;
-    width: 50vw;
+    min-width: 57vw;
     height: fit-content;
     position: absolute;
     top: 50%; right: 50%;
@@ -100,12 +100,63 @@ body {
     background-color: var(--blue);
     color: white;
     padding: 2px 14px;
-    margin-left: .5em;
+    margin-left: var(--standardSpacing); 
     font-weight: 800;
     border-radius: 8px;
 }
 
+.markAsRead h2 {
+    color: var(--veryDarkBlue);
+    transition: .3s ease-in-out;
+}
+
+.markAsRead h2:hover {
+    color: var(--blue);
+    cursor: pointer;
+    font-weight: 500;
+}
+
 /* notification styling */
+.notification {
+    display: flex;
+    justify-content: flex-start;
+    background-color: var(--VeryLightGrayBlue);
+    padding: var(--standardSpacing);
+    margin: 1em 0;
+    border-radius: 10px;
+}
+
+.notification img {
+    height: 50px; 
+    margin-right: var(--standardSpacing);
+}
+
+.name {
+    font-weight: 800;
+    margin-right: 0.2em;
+    position: relative;
+}
+
+.greyText {
+    color: var(--grayBlue);
+}
+
+.postName {
+    font-weight: 800;
+    color: var(--blue);
+}
+
+.dot {
+    color: var(--red);
+    font-size: 1rem;
+    margin-left: .5em;
+}
+
+.time {
+    position: absolute;
+    left: 16%;
+    bottom: 15%;
+}
 
 
 
