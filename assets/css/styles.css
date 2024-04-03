@@ -70,6 +70,7 @@ body {
     background-color: var(--VeryLightGrayBlue);
 }
 .container {
+    margin: 10rem 0;
     background-color: white;
     min-width: 60vw;
     height: fit-content;
@@ -126,6 +127,7 @@ body {
     margin: 1em 0;
     position: relative;
     border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
 }
 
 .notification img {
@@ -170,6 +172,100 @@ body {
     position: absolute;
     left: 11.5%;
     bottom: -10%;
+}
+
+.message {
+    color: var(--grayBlue);
+    /* position: absolute;
+    left: 11.5%;
+    top: 85%; */
+    padding: 1rem;
+    width: 48vw;
+    margin-left: 5rem;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    transition: .3s ease-in-out;
+}
+
+.message:hover {
+    background-color: var(--lightBlue2);
+    color: var(--DarkGrayishBlue);
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.notificationWhite {
+    display: flex;
+    justify-content: flex-start;
+    padding: var(--standardSpacing);
+    position: relative;
+    border-radius: 10px;
+}
+
+.notificationWhite img {
+    height: 50px; 
+    margin-right: var(--standardSpacing);
+}
+
+.notificationWhiteImg {
+    display: flex;
+    justify-content: space-between;
+}
+.content {
+    display: flex;
+    justify-content: flex-start;
+    padding: var(--standardSpacing);
+    position: relative;
+    border-radius: 10px;
+}
+
+.content img {
+    height: 50px; 
+    margin-right: var(--standardSpacing);
+}
+
+.imageNoti img {
+    height: 50px;
+    margin-right: .5em;
+    margin-top: var(--standardSpacing);
+    transition: .3s ease-in-out;
+}
+
+.imageNoti img:hover {
+    cursor: pointer;
+    transform: scale(115%);
+}
+
+.timeKimberly {
+    color: var(--grayBlue);
+    position: absolute;
+    left: 18.5%;
+    bottom: -10%;
+}
+
+.notificationNathan {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: var(--standardSpacing);
+    position: relative;
+    border-radius: 10px;
+}
+
+.notificationNathan img {
+    height: 50px; 
+    margin-right: var(--standardSpacing);
+}
+
+.postNameNathan {
+    font-weight: 800;
+    color: var(--DarkGrayishBlue);
+    transition: .2s ease-in-out;
+}
+
+.postNameNathan:hover {
+    color: var(--blue);
+    cursor: pointer;
 }
 
 
