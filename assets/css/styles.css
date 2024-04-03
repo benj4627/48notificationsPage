@@ -71,7 +71,7 @@ body {
 }
 .container {
     background-color: white;
-    min-width: 57vw;
+    min-width: 60vw;
     height: fit-content;
     position: absolute;
     top: 50%; right: 50%;
@@ -124,6 +124,7 @@ body {
     background-color: var(--VeryLightGrayBlue);
     padding: var(--standardSpacing);
     margin: 1em 0;
+    position: relative;
     border-radius: 10px;
 }
 
@@ -135,7 +136,6 @@ body {
 .name {
     font-weight: 800;
     margin-right: 0.2em;
-    position: relative;
     transition: .2s ease-in-out;
 }
 
@@ -165,11 +165,11 @@ body {
     margin-left: .5em;
 }
 
-.time {
-    position: absolute;
-    left: 16%;
-    bottom: 15%;
+.timeMark {
     color: var(--grayBlue);
+    position: absolute;
+    left: 11.5%;
+    bottom: -10%;
 }
 
 
