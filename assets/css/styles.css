@@ -4,7 +4,7 @@
 :root {
     --red: hsl(1, 90%, 64%);
     --blue: hsl(219, 85%, 26%);
-    --VeryLightGrayBlue: hsl(210, 60%, 98%);
+    --VeryLightGrayBlue: hsl(212, 74%, 95%);
     --lightBlue1: hsl(211, 68%, 94%);
     --lightBlue2: hsl(205, 33%, 90%); 
     --grayBlue: hsl(219, 14%, 63%);
@@ -105,6 +105,11 @@ body {
     margin-left: var(--standardSpacing); 
     font-weight: 800;
     border-radius: 8px;
+    transition: .3s ease-in-out;
+}
+
+.lightBlue {
+    background-color: var(--grayBlue);
 }
 
 .markAsRead h2 {
@@ -128,6 +133,11 @@ body {
     position: relative;
     border-radius: 10px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    transition: .3s ease-in-out;
+}
+
+.padding {
+    margin: 1rem 0;
 }
 
 .notification img {
@@ -165,6 +175,12 @@ body {
     color: var(--red);
     font-size: 1rem;
     margin-left: .5em;
+    transition: .2s ease-in;
+}
+
+.hidden {
+    font-size: 0rem;
+    overflow: hidden;
 }
 
 .timeMark {
@@ -267,33 +283,3 @@ body {
     color: var(--blue);
     cursor: pointer;
 }
-
-
-
-/* ## Colors
-
-### Primary
-
-- Red: hsl(1, 90%, 64%)
-- Blue: hsl(219, 85%, 26%)
-
-### Neutral
-
-- White: hsl(0, 0%, 100%)
-- Very light grayish blue: hsl(210, 60%, 98%)
-- Light grayish blue 1: hsl(211, 68%, 94%)
-- Light grayish blue 2: hsl(205, 33%, 90%)
-- Grayish blue: hsl(219, 14%, 63%)
-- Dark grayish blue: hsl(219, 12%, 42%)
-- Very dark blue: hsl(224, 21%, 14%)
-
-## Typography
-
-### Body Copy
-
-- Font size (paragraph): 16px
-
-### Font
-
-- Family: [Plus Jakarta Sans](https://fonts.google.com/specimen/Plus+Jakarta+Sans)
-- Weights: 500, 800 */
