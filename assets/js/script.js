@@ -18,7 +18,7 @@ buttonEl.addEventListener('click', () => {
     numberEl.style.backgroundColor ='hsl(219, 14%, 63%)';
 });
 
-//Her er målet at tildele "læst" styling til individuelle notifikationer. 
+//Her er målet at tildele "læst" styling til individuelle notifikationer, og samtidig fjerne den røde prik når der bliver trykket.  
 notificationEl.forEach(notificationsClick => {
     notificationsClick.addEventListener('click', () =>{
         notificationsClick.style.backgroundColor = 'white';
