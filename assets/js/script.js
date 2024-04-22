@@ -1,4 +1,4 @@
-//querySelector til at fange de relevanet elementer. læste notifikationer
+//querySelector til at fange de relevanet elementer.
 let buttonEl = document.querySelector('.markAsRead');
 let numberEl = document.querySelector('.number');
 let redDotEl = document.querySelectorAll('.dot');
