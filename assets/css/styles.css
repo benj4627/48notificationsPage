@@ -192,9 +192,6 @@ body {
 
 .message {
     color: var(--grayBlue);
-    /* position: absolute;
-    left: 11.5%;
-    top: 85%; */
     padding: 1rem;
     width: 48vw;
     margin-left: 5rem;
@@ -283,3 +280,6 @@ body {
     color: var(--blue);
     cursor: pointer;
 }
+
+
+/* media queries */

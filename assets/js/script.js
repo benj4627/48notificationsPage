@@ -27,7 +27,7 @@ document.querySelectorAll('.notification').forEach(notificationsClick => {
         redDotEl.classList.add('hidden');
 
         // Opdatere antallet af ulæste notifikationer
-        //'.notification:not(.padding) vælger alle elementer med klassen "notification", der ikke har klassen "padding" (de ulæste notifikationer).
+        //'.notification:not(.padding) vælger alle elementer med klassen "notification", der ikke  har klassen "padding" (de ulæste notifikationer).
         //Derefter hentes antallet elementer via  length, som repræsenterer antallet af ulæste notifikationer.
             let unreadNotificationsCount = document.querySelectorAll('.notification:not(.padding)').length;
             numberEl.textContent = unreadNotificationsCount;
